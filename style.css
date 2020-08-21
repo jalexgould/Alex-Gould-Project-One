@@ -8,7 +8,42 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
+/* general styles */
+html { 
+   font-size: 62.5%;
+}
+body{ 
+   color: rgb(0, 0, 0);
+}
+
+
+ul { 
+   margin: 0;
+   padding: 0;
+   list-style-type: none;   
+}
+
+a { 
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   font-size: 35px;
+}
+
+img { 
+   width: 100%;
+}
+
+.wrapper{ 
+   max-width:1200px; ;
+   width: 90%;
+   margin: 0 auto;
+}
+
+/* header */
+
 header { 
-   background-image: url(./Paint\ Gallery/group-4@2x.png);
+background-image: url(./assets/group-4@2x.png);
+background-size: cover;
+
 }
 
