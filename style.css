@@ -34,7 +34,7 @@ img {
 }
 
 .wrapper{ 
-   max-width:1200px; ;
+   max-width:1300px; ;
    width: 90%;
    margin: 0 auto;
 }
@@ -45,14 +45,22 @@ header {
 background-image: url(./assets/group-4@2x.png);
 background-size: cover;
 height: 40vh;
+position: relative;
 
+}
+
+.paint { 
+   width: calc(90% - 900px);
+   float: left;
 }
 
 h1 { 
    font-size: 100px;
-   width: 400px;
    line-height: 94.3px;
+   padding-top: 100px;
 }
+
+/* Nav */
 
 .headerNav { 
    float: left;
@@ -61,3 +69,7 @@ h1 {
 .headerNav li { 
    display: inline-block;
    margin: 10px;
+}
+
+/* Main */
+
