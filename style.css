@@ -44,6 +44,20 @@ img {
 header { 
 background-image: url(./assets/group-4@2x.png);
 background-size: cover;
+height: 40vh;
 
 }
 
+h1 { 
+   font-size: 100px;
+   width: 400px;
+   line-height: 94.3px;
+}
+
+.headerNav { 
+   float: left;
+}
+
+.headerNav li { 
+   display: inline-block;
+   margin: 10px;
