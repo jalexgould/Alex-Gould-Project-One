@@ -33,7 +33,7 @@ a {
 }
 
 img { 
-   width: 100%;
+   max-width: 100%;
 }
 
 .wrapper{ 
@@ -42,15 +42,25 @@ img {
    margin: 0 auto;
 }
 
+button{ 
+   background-color: #0178A5;
+}
+
+button:hover,
+button:focus {
+   color:#0179a5a8 ;
+   border-color: black;
+}
+
 
 /* header */
 
 header { 
-background-image: url(./assets/group-4@2x.png);
-background-size: cover;
-width: 100%;
-height: 40vh;
-position: relative;
+   background-image: url(./assets/group-4@2x.png);
+   background-size: cover;
+   width: 100%;
+   height: 80vh;
+   position: relative;
 }
 
 .paint { 
@@ -59,22 +69,23 @@ position: relative;
 }
 
 h1 { 
+   font-family: 'East Sea Dokdo', cursive;
    font-size: 122px;
    line-height: 94.3px;
-   padding-top: 100px;
 }
 
 /* Nav */
+
+
 nav { 
    font-family: 'Roboto', sans-serif;
    line-height: 29px;
    letter-spacing: 0.2px;
-}
 
+}
 
 .headerNav ul { 
    width: 40%;
-   float: left;
 }
 
 .headerNav li { 
@@ -83,10 +94,21 @@ nav {
 }
 
 /* Main */
-
 /* Product Section */
 
+.productSection { 
+   background-color:#FFE9E9 ;
+}
+
+.productH2,
+.product p { 
+   display: block;
+   float: right;
+   width: 51%;
+}
+
 h2 {
+   font-family: 'East Sea Dokdo', cursive;
    font-size: 75px;
    line-height: 36px;
    display: block;
@@ -101,3 +123,13 @@ h2 {
    letter-spacing: 0.2px;
 
 }
+
+/* Gallery */
+
+
+/* Links */
+
+
+/* Four Squares */
+
+/*  Footer */
