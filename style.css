@@ -12,6 +12,8 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 html { 
    font-size: 62.5%;
+   font-family: 'East Sea Dokdo', cursive;
+   font-family: 'Roboto', sans-serif;
 }
 body{ 
    color: rgb(0, 0, 0);
@@ -57,13 +59,17 @@ position: relative;
 }
 
 h1 { 
-   font-size: 100px;
+   font-size: 122px;
    line-height: 94.3px;
    padding-top: 100px;
 }
 
 /* Nav */
-
+nav { 
+   font-family: 'Roboto', sans-serif;
+   line-height: 29px;
+   letter-spacing: 0.2px;
+}
 
 
 .headerNav ul { 
@@ -81,11 +87,17 @@ h1 {
 /* Product Section */
 
 h2 {
+   font-size: 75px;
+   line-height: 36px;
    display: block;
    width: 50%;
 
 }
 
 .product p { 
-   
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+   line-height: 29px;
+   letter-spacing: 0.2px;
+
 }
