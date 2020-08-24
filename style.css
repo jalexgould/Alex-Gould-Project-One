@@ -153,8 +153,6 @@ h2 {
    top: 250px;
 }
 
-
-
 /* Gallery */
 
 
@@ -172,6 +170,7 @@ h2 {
 }
 
 /* Links */
+
 .links { 
    width: 100%;
    background-color:#FFE9E9  ;
@@ -179,7 +178,6 @@ h2 {
    height: 40vh;
    text-align: center;
 }
-
 
 /* Four Squares */
 
@@ -213,4 +211,14 @@ footer {
    background-color:#FFE9E9  ;
    padding-top: 50px;
    height: 60vh;
+   
+}
+.footerNav,
+.footerh3,
+h4,
+footer p,
+.subButton{
+   margin:0 10%;
+
+
 }
