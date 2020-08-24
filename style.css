@@ -48,7 +48,8 @@ button{
 
 button:hover,
 button:focus {
-   color:#0179a5a8 ;
+   color: black;
+   background-color: white;
    border-color: black;
 }
 
@@ -78,7 +79,6 @@ h1 {
 
 
 nav { 
-   font-family: 'Roboto', sans-serif;
    line-height: 29px;
    letter-spacing: 0.2px;
 
@@ -94,6 +94,7 @@ nav {
 }
 
 nav a { 
+   font-family: 'Roboto', sans-serif;
    font-size: 20px;
 
 }
@@ -102,9 +103,10 @@ nav a {
 /* Product Section */
 
 .productSection { 
+   position: relative;
    background-color:#FFE9E9 ;
    padding-top: 50px;
-   height: 50vh;
+   height: 60vh;
    
 }
 
@@ -112,7 +114,7 @@ nav a {
 .product p { 
    display: block;
    float: right;
-   width: 51%;
+   width: 60%;
    margin: 0 auto;
    padding-top: 50px;
    padding-right: 150px;
@@ -122,13 +124,13 @@ h2 {
    font-family: 'East Sea Dokdo', cursive;
    font-size: 75px;
    line-height: 36px;
-   display: block;
+   display: inline-block;
 
 }
 
 .product p { 
    font-family: 'Roboto', sans-serif;
-   font-size: 20px;
+   font-size: 10px;
    line-height: 29px;
    letter-spacing: 0.2px;
 }
@@ -140,13 +142,13 @@ h2 {
 }
 
 .blueButton { 
-   float:right;
+   float: left;
    width: 100px;
    height: 60px;
    font-size: 15px;
    color: white;
    font-family: 'Roboto', sans-serif;
-
+   position: relative;
 }
 
 
@@ -168,6 +170,12 @@ h2 {
 }
 
 /* Links */
+.links { 
+   background-color:#F7DAE8 ;
+   padding-top: 50px;
+   height: 40vh;
+   text-align: center;
+}
 
 
 /* Four Squares */
