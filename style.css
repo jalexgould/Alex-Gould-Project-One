@@ -164,6 +164,7 @@ h2 {
 }
 
 .galleryContainer img { 
+   position: relative;
    float: left;
    width: 25%; 
    margin-right: calc(25% / 3);  
@@ -178,6 +179,17 @@ h2 {
    height: 40vh;
    text-align: center;
 }
+.linksDiv {
+   float: left;
+   width: 25%;
+}
+
+.links:after {
+   content: "";
+   clear: both;
+   margin: 0 10%;
+}
+
 
 /* Four Squares */
 
@@ -190,14 +202,10 @@ h2 {
    width: 30%;
 }
 
-.squares1,
-.squares2 {
+.squares1 {
    margin:0 10%;
-   width: 51%;
-}
-
-.squares2 img{
-   float:left;
+   float: left;
+   width: 25%;
 }
 
 .squaresTxt1,
@@ -219,6 +227,5 @@ h4,
 footer p,
 .subButton{
    margin:0 10%;
-
 
 }
