@@ -103,10 +103,9 @@ nav a {
 /* Product Section */
 
 .productSection { 
-   position: relative;
    background-color:#FFE9E9 ;
    padding-top: 50px;
-   height: 60vh;
+   height: 70vh;
    
 }
 
@@ -136,19 +135,22 @@ h2 {
 }
 
 .container { 
+   position: absolute;
    width: 250px;
-   float: right;
    margin: 0 150px;
 }
 
 .blueButton { 
-   float: left;
+   position: relative;
    width: 100px;
-   height: 60px;
+   height: 40px;
    font-size: 15px;
    color: white;
    font-family: 'Roboto', sans-serif;
    position: relative;
+   float: right;
+   left: 98px;
+   top: 250px;
 }
 
 
@@ -157,7 +159,7 @@ h2 {
 
 
 .gallery { 
-   background-color:#F7DAE8 ;
+   background-color:#F7DAE8;
    padding-top: 50px;
    height: 80vh;
    text-align: center;
@@ -166,12 +168,13 @@ h2 {
 .galleryContainer img { 
    float: left;
    width: 25%; 
-   margin-right: calc(20% / 3);  
+   margin-right: calc(25% / 3);  
 }
 
 /* Links */
 .links { 
-   background-color:#F7DAE8 ;
+   width: 100%;
+   background-color:#FFE9E9  ;
    padding-top: 50px;
    height: 40vh;
    text-align: center;
@@ -180,4 +183,34 @@ h2 {
 
 /* Four Squares */
 
+.fourSquares { 
+   background-color:#F7DAE8 ;
+}
+
+.fourSquares img{
+   position: relative;
+   width: 30%;
+}
+
+.squares1,
+.squares2 {
+   margin:0 10%;
+   width: 51%;
+}
+
+.squares2 img{
+   float:left;
+}
+
+.squaresTxt1,
+.squaresTxt2 {
+   width: 40%;
+   float:right;
+}
 /*  Footer */
+
+footer { 
+   background-color:#FFE9E9  ;
+   padding-top: 50px;
+   height: 60vh;
+}
