@@ -74,41 +74,29 @@ h1 {
    font-size: 122px;
    line-height: 94.3px;
 }
-
 /* Nav */
-
-
 nav { 
    line-height: 29px;
    letter-spacing: 0.2px;
-
 }
 .headerNav ul { 
    width: 40%;
-
 }
-
 .headerNav li { 
    display: inline-block;
    margin: 10px;
 }
-
 nav a { 
    font-family: 'Roboto', sans-serif;
    font-size: 20px;
-
 }
-
 /* Main */
 /* Product Section */
-
 .productSection { 
    background-color:#FFE9E9 ;
    padding-top: 50px;
    height: 70vh;
-   
 }
-
 .productH2,
 .product p { 
    display: block;
@@ -118,29 +106,24 @@ nav a {
    padding-top: 50px;
    padding-right: 150px;
 }
-
 h2 {
    font-family: 'East Sea Dokdo', cursive;
    font-size: 75px;
    line-height: 36px;
    display: inline-block;
-
 }
-
 .product p { 
    font-family: 'Roboto', sans-serif;
    font-size: 10px;
    line-height: 29px;
    letter-spacing: 0.2px;
 }
-
 .container { 
    display: inline-block;
    position: relative;
    width: 250px;
    margin: 0 150px;
 }
-
 .blueButton { 
    position: relative;
    width: 100px;
@@ -152,10 +135,7 @@ h2 {
    left: 98px;
    top: 50px;
 }
-
 /* Gallery */
-
-
 .gallery { 
    background-color:#F7DAE8;
    padding-top: 50px;
@@ -180,16 +160,16 @@ h2 {
    text-align: center;
 }
 .linksDiv {
+   color: #0178A5;
    float: left;
-   width: 25%;
+   width: calc(100% / 3);
+   font-size: 25px;
 }
 
-.links:after {
-   content: "";
-   clear: both;
-   margin: 0 10%;
+.linksDiv h3 { 
+   color:black;
+   font-size: 20px;
 }
-
 
 /* Four Squares */
 
@@ -202,23 +182,27 @@ h2 {
    width: 30%;
 }
 
-.squares1 {
+.squares1,
+.squares2 {
    margin:0 10%;
    float: left;
-   width: 25%;
+   width: 50%;
 }
 
-.squaresTxt1,
-.squaresTxt2 {
-   width: 40%;
+.squaresTxt1 {
+   width: 50%;
    float:right;
+}
+.squaresTxt2 {
+   width: 50%;
+   float:left;
 }
 /*  Footer */
 
 footer { 
    background-color:#FFE9E9  ;
-   padding-top: 50px;
-   height: 60vh;
+   padding-top: 20px;
+   height: 40vh;
    
 }
 .footerNav,
@@ -226,6 +210,6 @@ footer {
 h4,
 footer p,
 .subButton{
-   margin:0 10%;
+   margin:0 15%;
 
 }
