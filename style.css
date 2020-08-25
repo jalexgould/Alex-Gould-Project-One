@@ -135,7 +135,8 @@ h2 {
 }
 
 .container { 
-   position: absolute;
+   display: inline-block;
+   position: relative;
    width: 250px;
    margin: 0 150px;
 }
@@ -147,10 +148,9 @@ h2 {
    font-size: 15px;
    color: white;
    font-family: 'Roboto', sans-serif;
-   position: relative;
    float: right;
    left: 98px;
-   top: 250px;
+   top: 50px;
 }
 
 /* Gallery */
