@@ -174,28 +174,39 @@ h2 {
 /* Four Squares */
 
 .fourSquares { 
+   height:100vh;
    background-color:#F7DAE8 ;
 }
 
 .fourSquares img{
    position: relative;
-   width: 30%;
+   width: 25%;
 }
 
 .squares1,
 .squares2 {
-   margin:0 10%;
+   margin:0 20%;
    float: left;
-   width: 50%;
+   width: calc(100% / 2);
+}
+
+.squares1{ 
+   position: relative;
+   right: 100px;
+}
+.squaresTxt1,
+.squaresTxt2{
+   width:calc(50% /2);
+   margin:0 10%;
 }
 
 .squaresTxt1 {
-   width: 50%;
    float:right;
+   right:100px
 }
 .squaresTxt2 {
-   width: 50%;
    float:left;
+   left: 100px;
 }
 /*  Footer */
 
